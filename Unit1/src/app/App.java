@@ -21,7 +21,7 @@ public class App {
         
         System.out.println("Enter your favorite color");
         String color = input.nextLine();
-        System.out.println("Hello ," + firstname + " " + lastname + " ." + age + " " + grade + " " + color + " ");
+        System.out.println("Hello ," + firstname + " " + lastname + ". " + age + " " + grade + " " + color + " ");
     }
 
 
