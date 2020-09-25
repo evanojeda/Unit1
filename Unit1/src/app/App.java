@@ -1,7 +1,10 @@
 package app;
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
         int count = 0;
         String color = "blue";
         boolean sport = true;
@@ -31,10 +34,37 @@ public class App {
 
 
 }
+=======
+      
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter your first name.");
+        String firstname = input.nextLine();
+        
+        System.out.println("Please enter your last name.");
+        String lastname = input.nextLine();
+        
+        System.out.println("What is your age.");
+        String age = input.nextLine();
+        
+        System.out.println("What grade are you in?");
+        String grade = input.nextLine();
+        
+        System.out.println("Enter your favorite color");
+        String color = input.nextLine();
+        System.out.println("Hello ," + firstname + " " + lastname + ". " + age + " " + grade + " " + color + " ");
+    }
 
 
 
 
+
+>>>>>>> 92eaed87ffa38a8a1e2c2c54e8581bbe455ee415
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -42,3 +72,6 @@ public class App {
 
 
 }
+=======
+}
+>>>>>>> 92eaed87ffa38a8a1e2c2c54e8581bbe455ee415
