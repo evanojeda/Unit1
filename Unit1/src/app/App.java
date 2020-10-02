@@ -7,5 +7,15 @@ public class App {
    String s2 = "puck";
 
    if (s1.equals(s2){
-       System.out.println("equial");
+       System.out.println("equal"); 
+   
+       puck = input.nextLine();
+       if(puck.equils("puck is harder than a ball");
+
+       
+
+       
+
+   
+   
     }
